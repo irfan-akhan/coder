@@ -6,8 +6,18 @@ import Contact from "../../components/Contact";
 import about from "../../styles/About.module.css";
 
 const corporate_travel = () => {
+  const routes = {
+    "Airport Transfer": "/services/airport_transfer",
+    "Car Hire": "/services/car_hire",
+    "Priority Pass": "/services/priority_pass",
+    "Corporate Travel": "/services/corporate_travel",
+    "Wedding Services": "/services/wedding_services",
+  };
   return (
-    <section className={about.container} style={{ width: "80vw", margin:"7rem auto" }} >
+    <section
+      className={about.container}
+      style={{ width: "80vw", margin: "7rem auto" }}
+    >
       <Grid container justify="center" spacing={3}>
         <Grid item xs={2}>
           <Sidebar routes={routes} />
