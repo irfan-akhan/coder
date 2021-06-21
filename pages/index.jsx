@@ -30,7 +30,7 @@ export default function Home() {
         className={form.formBg}
         style={{
           height: "85vh",
-          background: `url('/assets/images/car.jpg')`,
+          background: `url('/coder/assets/images/car.jpg')`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
@@ -116,14 +116,14 @@ export default function Home() {
       <section className={styles.choose}>
         <Choose />
       </section>
-      <section className={styles.reviews} style={{backgroundSize:"contain", backgroundRepeat:"no-repeat",  background:`url("/assets/images/background.jpg")`}}>
+      <section className={styles.reviews} style={{backgroundSize:"contain", backgroundRepeat:"no-repeat",  background:`url("/coder/assets/images/background.jpg")`}}>
         <Reviews />
         <Grid container spacing={3}  justify="center" alignItems="center" style={{width:"70vw", margin:" 5rem auto"}}>
           <Grid item xs={3} >
             <a target="_blank" href="https://www.trustpilot.com/review/shuttlelane.com">
-            <img src="/assets/images/trustpilot.png" alt="trustpilot logo" style={{width:"150px"}}/>
+            <img src="/coder/assets/images/trustpilot.png" alt="trustpilot logo" style={{width:"150px"}}/>
             <div style={{display:"flex", alignItems:"center", marginLeft:"2rem" }}>
-              <img src="/assets/images/star.png" style={{width:"20px"}} alt="rating star"/>
+              <img src="/coder/assets/images/star.png" style={{width:"20px"}} alt="rating star"/>
                 <span style={{color:"Green"}}> 
                   4.3
                   <span  style={{color:"black", fontSize:".7rem"}}> /5</span>
@@ -134,9 +134,9 @@ export default function Home() {
           <Grid item xs={3} >
             <Card>
               <a target="_blank" href={`https://www.google.com/search?q=google+shuttlelane+review&sxsrf=ALeKk03nngNGPkFxjmokthABTb56bA1aWA%3A1624185657820&ei=ORvPYNnAMZWO4-EPk6iEyA4&oq=google+shuttlelane+review&gs_lcp=Cgdnd3Mtd2l6EANQhxFY7iNg1yVoAHAAeACAAZoRiAGiG5IBCzAuNC4xLjEuOS0xmAEAoAEBqgEHZ3dzLXdpesABAQ&sclient=gws-wiz&ved=0ahUKEwiZwbuJg6bxAhUVxzgGHRMUAekQ4dUDCBI&uact=5#lrd=0x103b8c448e2f97c3:0xc95f24c00955aecc,1`}>
-              <img src="/assets/images/google.png" alt="google logo" style={{width:"120px"}}/>
+              <img src="/coder/assets/images/google.png" alt="google logo" style={{width:"120px"}}/>
               <div style={{display:"flex", alignItems:"center", marginLeft:"2rem" }}>
-                <img src="/assets/images/star.png" style={{width:"20px"}} alt="rating star"/>
+                <img src="/coder/coder/assets/images/star.png" style={{width:"20px"}} alt="rating star"/>
                   <span style={{color:"Green"}}>
                     5
                     <span  style={{color:"black", fontSize:".7rem"}}> /5</span>
@@ -147,9 +147,9 @@ export default function Home() {
           </Grid>
           <Grid item xs={3} >
           <a target="_blank" href="https://www.tripadvisor.in/Attraction_Review-g304026-d17527097-Reviews-Shuttlelane-Lagos_Lagos_State.html">
-            <img src="/assets/images/tripadvisor.png" alt="tripadvisor logo" style={{width:"150px"}}/>
+            <img src="/coder/assets/images/tripadvisor.png" alt="tripadvisor logo" style={{width:"150px"}}/>
             <div style={{display:"flex", alignItems:"center", marginLeft:"2rem" }}>
-              <img src="/assets/images/star.png" style={{width:"20px"}} alt="rating star"/>
+              <img src="/coder/assets/images/star.png" style={{width:"20px"}} alt="rating star"/>
                 <span style={{color:"Green"}}> 
                   4.9
                   <span  style={{color:"black", fontSize:".7rem"}}> /5</span>

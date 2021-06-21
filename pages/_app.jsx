@@ -110,7 +110,7 @@ function MyApp({ Component, pageProps }) {
         <Grid container spacing={2}>
           <Grid item sm={3}>
             <div data-aos="fade-right" className={styles.logo}>
-              <img src="/assets/images/shuttle.png" alt="logo" />
+              <img src="/coder/assets/images/shuttle.png" alt="logo" />
             </div>
           </Grid>
           <Grid

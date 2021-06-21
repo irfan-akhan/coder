@@ -35,17 +35,17 @@ const Partners = () => {
             }}
           >
             <img
-              src="/assets/images/flutter.png"
+              src="/coder/assets/images/flutter.png"
               alt="Flutter wave"
               style={{ width: "300px" }}
             />
             <img
-              src="/assets/images/paypal.png"
+              src="/coder/assets/images/paypal.png"
               alt="Paypal"
               style={{ width: "200px", margin: "0px 30px" }}
             />
             <img
-              src="/assets/images/stripe.png"
+              src="/coder/assets/images/stripe.png"
               alt="Stripe"
               style={{ width: "150px" }}
             />

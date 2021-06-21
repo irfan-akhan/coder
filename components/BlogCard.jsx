@@ -4,7 +4,7 @@ import blog from "../styles/Blog.module.css";
 export default function MediaCard() {
   return (
     <div className={blog.Card}>
-      <img src="/assets/images/car.jpg" alt="" />
+      <img src="/coder/assets/images/car.jpg" alt="" />
       <div className={blog.cardBody}>
         <div className={blog.author}>
           <p>

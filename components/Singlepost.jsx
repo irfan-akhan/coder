@@ -7,7 +7,7 @@ import {
 const Singlepost =()=>{
     return(       
         <Grid item xs={7} className={singlePost.post}>
-            <img src="/assets/images/car-1.png" alt="" style={{width:"300px"}}/>
+            <img src="/coder/assets/images/car-1.png" alt="" style={{width:"300px"}}/>
             <Typography gutterBottom variant="h5">
                 Lorem, ipsum dolor sit amet.
             </Typography>

@@ -21,7 +21,7 @@ const contact = () => {
           </Typography>
           <img 
           
-            src="/assets/images/location.jpg"
+            src="/coder/assets/images/location.jpg"
             alt="location of office"
             style={{ width:"300", height:"150"}}
           />

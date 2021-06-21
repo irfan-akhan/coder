@@ -64,7 +64,7 @@ const Carousel = () => {
 							</p>
 						</div>
 						<div className={carousel.col_right}>
-							<img src='/assets/images/car-1.png' alt='' />
+							<img src='/coder/assets/images/car-1.png' alt='' />
 						</div>
 					</div>
 					<div className={carousel.slide}>
@@ -80,7 +80,7 @@ const Carousel = () => {
 							</p>
 						</div>
 						<div className={carousel.col_right}>
-							<img src='/assets/images/car-2.png' alt='' />
+							<img src='/coder/assets/images/car-2.png' alt='' />
 						</div>
 					</div>
 					<div className={carousel.slide}>
@@ -96,7 +96,7 @@ const Carousel = () => {
 							</p>
 						</div>
 						<div className={carousel.col_right}>
-							<img src='/assets/images/masterRoshi.png' alt='' />
+							<img src='/coder/assets/images/masterRoshi.png' alt='' />
 						</div>
 					</div>
 
@@ -114,7 +114,7 @@ const Carousel = () => {
 							</p>
 						</div>
 						<div className={carousel.col_right}>
-							<img src='/assets/images/car-3.png' alt='' />
+							<img src='/coder/assets/images/car-3.png' alt='' />
 						</div>
 					</div>
 				</div>

@@ -9,7 +9,7 @@ const BlogAside = () => {
            
                 <Card>
                     <CardMedia>
-                        <img src="/assets/images/shuttle.png" alt="logo" style={{width:"200px", marginTop:"10px"}}/>
+                        <img src="/coder/assets/images/shuttle.png" alt="logo" style={{width:"200px", marginTop:"10px"}}/>
                     </CardMedia>
                     <CardContent>
                         <Typography gutterBottom variant="h5" color="secondary">
