@@ -68,6 +68,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider theme={theme}>
       {/* Topbar */}
+      <Head>
+        <link rel ="shortcut icon" href={'/coder/favicon.ico'}/>
+        <title>Shuttlelane</title>
+        <meta name="viewport" content="minimum-scale=1, initial-scle=1, width=device-width" />
+      </Head>
       <div data-aos="fade-down" className={topbar.topbar}>
         <div className={topbar.left}>
           <div className={topbar.item}>

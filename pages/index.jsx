@@ -66,7 +66,7 @@ export default function Home() {
               Priority Pass
             </h4>
           </div>
-          {baseForm === "Airport" ? (
+          {baseForm === "Airport Transfer" ? (
             <AirportForm />
           ) : baseForm === "Car Hire" ? (
             <Carhire />
