@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Head from "next/head";
 import { Grid, Typography, Modal,Card } from "@material-ui/core";
-import FleetItem from "../components/FleetItem";
+// import FleetItem from "../components/FleetItem";
 import Reviews from "../components/Reviews";
 import Choose from "../components/Choose";
 import Works from "../components/Works";
@@ -101,10 +101,11 @@ export default function Home() {
             depending on your needs.
           </Grid>
           <Grid item>
-            <FleetItem
+            {/* <FleetItem
               title="luxury"
               description="A step closer to luxury. Comfort and convenience is guaranteed. Can accommodate up to 4 passengers and 2 luggages. Ford Focus, Ford Figo, MG550, Ford Fusion, Toyota Camry, Volkswagon Passat, Toyota Corolla, Hyundai Elentra, etc."
-            />
+            /> */}
+            Fleet is here
           </Grid>
         </Grid>
       </section>

@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { PersonSharp } from "@material-ui/icons";
 import blog from "../styles/Blog.module.css";
 export default function MediaCard() {

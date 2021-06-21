@@ -3,7 +3,6 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import MailOutline from "@material-ui/icons/MailOutline";
 import PhoneIcon from "@material-ui/icons/Phone";
 
-import Image from "next/image";
 const Partners = () => {
   return (
     <section style={{ marginTop: "5rem", paddingBottom: "5rem" }}>

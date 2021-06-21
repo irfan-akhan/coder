@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@material-ui/core";
 import Sidebar from "../../components/Sidebar";
 import Contact from "../../components/Contact";
-import Image from "next/image";
+
 import about from "../../styles/About.module.css";
 
 const contact = () => {
@@ -19,11 +19,11 @@ const contact = () => {
           <Typography variant="h5" color="textPrimary" paragraph gutterBottom>
             Get in Touch
           </Typography>
-          <Image
+          <img 
+          
             src="/assets/images/location.jpg"
             alt="location of office"
-            width={800}
-            height={250}
+            style={{ width:"300", height:"150"}}
           />
           <Typography
             variant="body1"
