@@ -4,15 +4,14 @@ import Sidebar from "../../components/Sidebar";
 import Contact from "../../components/Contact";
 
 import about from "../../styles/About.module.css";
-
+const routes = {
+  "Airport Transfer": "/services/airport_transfer",
+  "Car Hire": "/services/car_hire",
+  "Priority Pass": "/services/priority_pass",
+  "Corporate Travel": "/services/corporate_travel",
+  "Wedding Services": "/services/wedding_services",
+};
 const wedding_services = () => {
-  const routes = {
-    "Airport Transfer": "/services/airport_transfer",
-    "Car Hire": "/services/car_hire",
-    "Priority Pass": "/services/priority_pass",
-    "Corporate Travel": "/services/corporate_travel",
-    "Wedding Services": "/services/wedding_services",
-  };
   return (
     <section
       className={about.container}
