@@ -21,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
     width: 400,
-    // backgroundImage: url("/assets/images/covid.jpg"),
+    
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
     padding: theme.spacing(2, 4, 3),
@@ -41,7 +41,7 @@ export default function SimpleModal() {
   };
 
   const body = (
-    <div style={modalStyle} className={classes.paper}  style={{background:`url("/assets/images/covid.jpg")`, position: "absolute", top: '30vh', left: ' 10vw', width : '80%', border:'1px solid #E2B443', outline:'none', borderRadius:'10px'}}>
+    <div style={modalStyle} className={classes.paper}  style={{background:`url("/coder/assets/images/covid.jpg")`, position: "absolute", top: '30vh', left: ' 10vw', width : '80%', border:'1px solid #E2B443', outline:'none', borderRadius:'10px'}}>
       <h3 id="simple-modal-title" style={{color:'#000080', textShadow:'1px 1px #fff'}}>Responsible Travel: Coronavirus (COVID-19): </h3>
       <p id="simple-modal-description">
       Our priority is to ensure all our customers and drivers have a safe and comfortable journey. We are committed to doing everything we can to guard against the spread of COVID-19 and hope that all passengers will follow the advice from the Nigeria Centre for Disease Control (NCDC).
