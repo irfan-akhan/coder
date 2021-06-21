@@ -1,0 +1,42 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0rem;
+  padding: 0.6rem 5rem;
+  background-color: #ccc;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 3vh;
+  z-index: 1;
+  font-size: 0.8rem;
+  & .left {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    & > .item {
+      display: flex;
+      justify-content: center;
+      transition: all 0.3s linear;
+      &:hover {
+        color: #000080;
+        transform: scale(1.08);
+      }
+    }
+
+    & .logo > img {
+      max-width: 200px;
+    }
+  }
+  & .right > select {
+    border: none;
+    font-size: 12px;
+    // background: #ccc;
+  }
+  & .right > * {
+    margin-right: 1rem;
+    border: nones;
+  }
+}

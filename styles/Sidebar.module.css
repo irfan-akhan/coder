@@ -1,0 +1,10 @@
+.Menu {
+  border-left: 4px solid #000080;
+  border-radius: 0;
+}
+.Menu li:hover {
+  background-color: #000080;
+  color: #fff;
+}
+
+/*# sourceMappingURL=Sidebar.module.css.map */

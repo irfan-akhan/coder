@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #343a40;
+  padding: 3rem 5rem;
+
+  & .sections a {
+    color: #d6cacab0;
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    position: relative;
+    &::after {
+      content: "";
+      height: 2px;
+      width: 0%;
+      position: absolute;
+      bottom: 0%;
+      left: 0;
+
+      background-color: #d6cacab0;
+      transition: all 0.4s ease-in-out;
+    }
+    &:hover::after {
+      width: 95%;
+    }
+  }
+}

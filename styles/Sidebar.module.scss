@@ -1,0 +1,8 @@
+.Menu {
+  border-left: 4px solid #000080;
+}
+
+& li:hover {
+  background-color: #000080;
+  color: #fff;
+}

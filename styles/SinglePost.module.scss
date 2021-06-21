@@ -1,0 +1,17 @@
+ .post
+{
+    // width:80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    // margin: auto;
+
+
+& > img
+{
+    width: 50%;
+
+}
+
+}
